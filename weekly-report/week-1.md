@@ -1,0 +1,39 @@
+# Báo cáo Tuần 1
+**Tuần:** 1 (02/03/2026 - 08/03/2026)
+**Nhóm:** 4
+**Đề tài:** 14 - AI-Powered E-Learning Platform
+**Nhóm trưởng:** Nguyễn Minh Quân - 2251052102
+---
+## 1. Công việc đã hoàn thành
+
+| Thành viên | MSSV | Công việc | Link Commit/PR |
+|------------|------|-----------|----------------|
+| Nguyễn Minh Quân | 2251052102 | Phân chia công việc, Chọn đề tài |  |
+| Phạm Đỗ Nhật Tân | 2251052108 | Chọn đề tài, tạo project |  |
+
+## 2. Tiến độ tổng thể
+
+| Hạng mục | Trạng thái | % |
+|----------|------------|---|
+| Phân tích yêu cầu | Done | 0% |
+| Thiết kế kiến trúc | Done | 0% |
+| Backend API | Đang làm | 0% |
+| Frontend UI | Đang làm | 0% |
+| Docker | Chưa bắt đầu | 0% |
+| Testing | Chưa bắt đầu | 0% |
+
+**Tổng tiến độ: 0%**
+---
+
+## 3. Kế hoạch tuần tới
+
+| Thành viên | Công việc dự kiến |
+|------------|-------------------|
+| Nguyễn Minh Quân | Thiết kế database |
+| Phạm Đỗ Nhật Tân | Thiết kế API |
+
+---
+## 4. Khó khăn / Cần hỗ trợ
+---
+*Ngày nộp: DD/MM/YYYY*
+*Xác nhận của Nhóm trưởng: [Họ tên]*
