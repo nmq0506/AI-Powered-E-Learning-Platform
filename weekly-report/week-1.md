@@ -15,8 +15,8 @@
 
 | Hạng mục | Trạng thái | % |
 |----------|------------|---|
-| Phân tích yêu cầu | Done | 0% |
-| Thiết kế kiến trúc | Done | 0% |
+| Phân tích yêu cầu | Đang làm | 0% |
+| Thiết kế kiến trúc | Đang làm | 0% |
 | Backend API | Đang làm | 0% |
 | Frontend UI | Đang làm | 0% |
 | Docker | Chưa bắt đầu | 0% |
