@@ -17,8 +17,8 @@
 |----------|------------|---|
 | Phân tích yêu cầu | Đang làm | 0% |
 | Thiết kế kiến trúc | Đang làm | 0% |
-| Backend API | Đang làm | 0% |
-| Frontend UI | Đang làm | 0% |
+| Backend API | Chưa bắt đầu | 0% |
+| Frontend UI | Chưa bắt đầu | 0% |
 | Docker | Chưa bắt đầu | 0% |
 | Testing | Chưa bắt đầu | 0% |
 
