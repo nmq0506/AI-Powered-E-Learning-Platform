@@ -43,7 +43,7 @@ ADMIN (6 tính năng):
 ## 5. Phân Công Công Việc
 | Thành viên | Công việc | Timeline |
 |------------|-----------|----------|
-| Nguyễn A | Backend - User module | Week 1-3 |
-| ... | ... | ... |
+| Nguyễn Minh Quân | Backend - Admin module | Week 1-3 |
+| Phạm Đỗ Nhật Tân | Backend - Instructor module | Week 1-3 |
 ## 6. Timeline
 Tuần 1: Chốt đề tài bài tập lớn + phân công công việc từng thành viên
