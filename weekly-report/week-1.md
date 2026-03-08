@@ -35,5 +35,5 @@
 ---
 ## 4. Khó khăn / Cần hỗ trợ
 ---
-*Ngày nộp: DD/MM/YYYY*
-*Xác nhận của Nhóm trưởng: [Họ tên]*
+*Ngày nộp: 08/01/2026*
+*Xác nhận của Nhóm trưởng: Nguyễn Minh Quân*
