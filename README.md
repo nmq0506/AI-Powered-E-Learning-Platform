@@ -49,28 +49,29 @@ ADMIN (6 tính năng):
 ## Tuần 1: 
 Chốt đề tài bài tập lớn + phân công công việc từng thành viên
 Tuần Giai đoạn Công việc chính Deliverables
-2 Phân tích
+## Tuần 2: Phân tích
 Phân tích yêu cầu, use cases,
 wireframes
 docs/requirements.md
-3 Thiết kế Database design, API design, k iến
+## Tuần 3: 
+Thiết kế Database design, API design, k iến
 trúc
 docs/database-design.md,
 docs/api-docs.md
-4-5
-Backend
+## Tuần 4-5: Backend
 Core
 Setup project, entities, repositories,
 basic APIs
 Backend chạy được
-6-7
+## Tuần 6-7: 
 Backend +
 Auth
 Authentication, Authorization,
 business log ic
 APIs hoàn chỉnh
-8 Frontend UI components, tích hợp API Frontend cơ bản
-9 Hoàn thiện
+## Tuần 8:  
+Frontend UI components, tích hợp API Frontend cơ bản
+## Tuần 9:  Hoàn thiện
 Testing, bug f ixes, AI integration
 (nếu có)
 Sản phẩm hoàn chỉnh
