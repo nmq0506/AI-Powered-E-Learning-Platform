@@ -72,7 +72,7 @@ APIs hoàn chỉnh
 ## Tuần 8:  
 Frontend UI components, tích hợp API Frontend cơ bản
 ## Tuần 9:  Hoàn thiện
-Testing, bug f ixes, AI integration
+Testing, bug fixes, AI integration
 (nếu có)
 Sản phẩm hoàn chỉnh
 10 Bảo vệ
