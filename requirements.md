@@ -7,31 +7,31 @@
 
 +Theo dõi tiến độ xem
 
-3. Chat với AI Tutor
+2. Chat với AI Tutor
 
 Đặt câu hỏi về nội dung bài học
 
 Nhận giải thích từ AI
 
-3️⃣ Làm Quiz (AI-generated)
+3️. Làm Quiz 
 
 Làm bài kiểm tra trắc nghiệm
 
 Nhận kết quả ngay sau khi nộp
 
-4️⃣ Nộp bài tập và nhận AI Feedback
+4️. Nộp bài tập và nhận AI Feedback
 
 Upload file hoặc nhập bài làm
 
 Nhận nhận xét từ AI
 
-5️⃣ Xem tiến độ học tập
+5️. Xem tiến độ học tập
 
 Xem % hoàn thành khóa học
 
 Xem điểm quiz và assignment
 
-6️⃣ Nhận certificate
+6️. Nhận certificate
 
 Khi hoàn thành khóa học
 
