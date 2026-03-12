@@ -66,6 +66,10 @@ Instructor nhập nội dung bài học, AI sẽ gợi ý:
 #### 5. Gửi thông báo
 - thông báo deadline
 - thông báo cập nhật khóa học
+#### 6. Xem analytics
+- số lượng học viên
+- tỷ lệ hoàn thành
+- điểm trung bình
 ---
 ## User role: Admin
 - Quản lý users (CRUD)
@@ -108,9 +112,4 @@ Admin có thể:
 - gửi thông báo cho user
 
 ---
-#### 6. Xem analytics
-- số lượng học viên
-- tỷ lệ hoàn thành
-- điểm trung bình
 
----
