@@ -1,10 +1,13 @@
 ## User role: Student
 1. Xem video bài giảng
+
 +Truy cập danh sách khóa học
+
 +Xem video bài học
+
 +Theo dõi tiến độ xem
 
-2. Chat với AI Tutor
+3. Chat với AI Tutor
 
 Đặt câu hỏi về nội dung bài học
 
