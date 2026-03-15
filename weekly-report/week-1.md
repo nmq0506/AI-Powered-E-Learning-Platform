@@ -29,8 +29,8 @@
 
 | Thành viên | Công việc dự kiến |
 |------------|-------------------|
-| Nguyễn Minh Quân | Thiết kế database |
-| Phạm Đỗ Nhật Tân | Thiết kế API |
+| Nguyễn Minh Quân | Phân tích yêu cầu |
+| Phạm Đỗ Nhật Tân | Khởi tạo các package, thiết kế một số entities |
 
 ---
 ## 4. Khó khăn / Cần hỗ trợ
