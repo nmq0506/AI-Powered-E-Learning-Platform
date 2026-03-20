@@ -9,8 +9,8 @@
 
 | Thành viên | MSSV | Công việc | Link Commit/PR |
 |------------|------|-----------|----------------|
-| Nguyễn Minh Quân | 2251052102 | Phân tích yêu cầu |  |
-| Phạm Đỗ Nhật Tân | 2251052108 | Khởi tạo các package, thiết kế một số entities |  |
+| Nguyễn Minh Quân | 2251052102 | Thiết kế database |  |
+| Phạm Đỗ Nhật Tân | 2251052108 | Thiết kế API design cơ bản |  |
 
 ## 2. Tiến độ tổng thể
 
@@ -30,8 +30,8 @@
 
 | Thành viên | Công việc dự kiến |
 |------------|-------------------|
-| Nguyễn Minh Quân | Thiết kế backend của Admin |
-| Phạm Đỗ Nhật Tân | Bổ sung chỉnh sửa Database |
+| Nguyễn Minh Quân | Thiết kế một số backend của Admin |
+| Phạm Đỗ Nhật Tân | Thiết kế một số backend cần thiết của Instructor|
 
 ---
 ## 4. Khó khăn / Cần hỗ trợ
