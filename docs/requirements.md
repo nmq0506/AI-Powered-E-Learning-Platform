@@ -220,13 +220,4 @@ Admin can:
 
 ---
 
-# 4. Future Enhancements
-
-* Real-time chat (WebSocket)
-* Mobile application
-* Recommendation system (AI-based)
-* Course rating and reviews
-
----
-
 **End of Document**
