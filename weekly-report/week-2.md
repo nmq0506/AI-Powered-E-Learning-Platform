@@ -1,4 +1,4 @@
-# Báo cáo Tuần 1
+# Báo cáo Tuần 2
 **Tuần:** 2 (09/03/2026 - 15/03/2026)
 **Nhóm:** 4
 **Đề tài:** 14 - AI-Powered E-Learning Platform
@@ -35,5 +35,5 @@
 ---
 ## 4. Khó khăn / Cần hỗ trợ
 ---
-*Ngày nộp: DD/MM/YYYY*
-*Xác nhận của Nhóm trưởng: [Họ tên]*
+*Ngày nộp: 14/03/2026
+*Xác nhận của Nhóm trưởng: Nguyễn Minh Quân
