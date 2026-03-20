@@ -2,7 +2,7 @@
 # Báo cáo Tuần 3
 **Tuần:** 3 (16/03/2026 - 22/03/2026)
 **Nhóm:** 4
-**Đề tài:** 14 - AI-Powered E-Learning Platform
+**Đề tài:** 16 - AI-Powered E-Learning Platform
 **Nhóm trưởng:** Nguyễn Minh Quân - 2251052102
 ---
 ## 1. Công việc đã hoàn thành
