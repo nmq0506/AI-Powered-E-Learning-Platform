@@ -1,5 +1,6 @@
-# Báo cáo Tuần 2
-**Tuần:** 2 (09/03/2026 - 15/03/2026)
+
+# Báo cáo Tuần 3
+**Tuần:** 3 (16/03/2026 - 22/03/2026)
 **Nhóm:** 4
 **Đề tài:** 14 - AI-Powered E-Learning Platform
 **Nhóm trưởng:** Nguyễn Minh Quân - 2251052102
@@ -8,16 +9,16 @@
 
 | Thành viên | MSSV | Công việc | Link Commit/PR |
 |------------|------|-----------|----------------|
-| Nguyễn Minh Quân | 2251052102 | Phân tích yêu cầu |  |
-| Phạm Đỗ Nhật Tân | 2251052108 | Khởi tạo các package, thiết kế một số entities |  |
+| Nguyễn Minh Quân | 2251052102 | Thiết kế database |  |
+| Phạm Đỗ Nhật Tân | 2251052108 | Thiết kế API design cơ bản |  |
 
 ## 2. Tiến độ tổng thể
 
 | Hạng mục | Trạng thái | % |
 |----------|------------|---|
 | Phân tích yêu cầu | Done | 100% |
-| Thiết kế kiến trúc | Đang làm | 40% |
-| Backend API | Chưa bắt đầu | 0% |
+| Thiết kế kiến trúc | Đang làm | 60% |
+| Backend API | Đang làm | 30% |
 | Frontend UI | Chưa bắt đầu | 0% |
 | Docker | Chưa bắt đầu | 0% |
 | Testing | Chưa bắt đầu | 0% |
@@ -29,11 +30,11 @@
 
 | Thành viên | Công việc dự kiến |
 |------------|-------------------|
-| Nguyễn Minh Quân | Thiết kế database |
-| Phạm Đỗ Nhật Tân | Thiết kế API |
+| Nguyễn Minh Quân | Thiết kế một số backend của Admin |
+| Phạm Đỗ Nhật Tân | Thiết kế một số backend cần thiết của Instructor|
 
 ---
 ## 4. Khó khăn / Cần hỗ trợ
 ---
-*Ngày nộp: 14/03/2026
+*Ngày nộp: 20/03/2026
 *Xác nhận của Nhóm trưởng: Nguyễn Minh Quân
