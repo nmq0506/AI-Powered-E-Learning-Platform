@@ -214,10 +214,6 @@ Admin can:
 
 * System should scale with increasing users and courses
 
-## 3.4 Availability
-
-* System should be available 24/7
-
 ---
 
 **End of Document**

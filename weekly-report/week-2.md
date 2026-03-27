@@ -1,4 +1,4 @@
-# Báo cáo Tuần 2
+# Báo cáo Tuần 1
 **Tuần:** 2 (09/03/2026 - 15/03/2026)
 **Nhóm:** 4
 **Đề tài:** 16 - AI-Powered E-Learning Platform
@@ -28,12 +28,12 @@
 ## 3. Kế hoạch tuần tới
 
 | Thành viên | Công việc dự kiến |
-|------------|-------------------|
+|------------|-------------------|  
 | Nguyễn Minh Quân | Thiết kế database |
 | Phạm Đỗ Nhật Tân | Thiết kế API |
 
 ---
 ## 4. Khó khăn / Cần hỗ trợ
 ---
-*Ngày nộp: 14/03/2026
-*Xác nhận của Nhóm trưởng: Nguyễn Minh Quân
+*Ngày nộp: DD/MM/YYYY*
+*Xác nhận của Nhóm trưởng: [Họ tên]*
