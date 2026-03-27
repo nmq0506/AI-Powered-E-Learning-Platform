@@ -504,5 +504,165 @@ Response:
 * 500 Internal Server Error
 
 ---
+Chức năng chính của Admin
+# Admin APIs
 
+## 1. User Management (CRUD)
+
+### 1.1 Get All Users
+GET /admin/users
+
+### Query Params
+- page
+- size
+- role (optional)
+
+### Response
+[
+  {
+    "id": 1,
+    "name": "Nguyen Van A",
+    "email": "a@gmail.com",
+    "role": "STUDENT"
+  }
+]
+
+---
+
+### 1.2 Get User By ID
+GET /admin/users/{id}
+
+---
+
+### 1.3 Create User
+POST /admin/users
+
+### Body
+{
+  "name": "User A",
+  "email": "a@gmail.com",
+  "password": "123456",
+  "role": "INSTRUCTOR"
+}
+
+---
+
+### 1.4 Update User
+PUT /admin/users/{id}
+
+---
+
+### 1.5 Delete User
+DELETE /admin/users/{id}
+
+---
+
+# 2. Course Approval
+
+### 2.1 Get Pending Courses
+GET /admin/courses/pending
+
+---
+
+### 2.2 Approve Course
+PUT /admin/courses/{id}/approve
+
+---
+
+### 2.3 Reject Course
+PUT /admin/courses/{id}/reject
+
+### Body
+{
+  "reason": "Invalid content"
+}
+
+---
+
+# 3. Category Management
+
+### 3.1 Get Categories
+GET /admin/categories
+
+---
+
+### 3.2 Create Category
+POST /admin/categories
+
+### Body
+{
+  "name": "Programming"
+}
+
+---
+
+### 3.3 Update Category
+PUT /admin/categories/{id}
+
+---
+
+### 3.4 Delete Category
+DELETE /admin/categories/{id}
+
+---
+
+# 4. AI Configuration
+
+### 4.1 Get AI Config
+GET /admin/ai-config
+
+---
+
+### 4.2 Update AI Config
+PUT /admin/ai-config
+
+### Body
+{
+  "provider": "openai",
+  "model": "gpt-4",
+  "api_key": "your_api_key",
+  "max_tokens": 1000
+}
+
+---
+
+# 5. Reports & Analytics
+
+### 5.1 System Overview
+GET /admin/reports/overview
+
+### Response
+{
+  "total_users": 1000,
+  "total_courses": 200,
+  "total_enrollments": 5000
+}
+
+---
+
+### 5.2 User Statistics
+GET /admin/reports/users
+
+---
+
+### 5.3 Course Statistics
+GET /admin/reports/courses
+
+---
+
+# 6. Notification Management
+
+### 6.1 Send System Notification
+POST /admin/notifications
+
+### Body
+{
+  "title": "System Update",
+  "message": "New feature released"
+}
+
+---
+
+### 6.2 Get Notifications
+GET /admin/notifications
 **End of API Document**
