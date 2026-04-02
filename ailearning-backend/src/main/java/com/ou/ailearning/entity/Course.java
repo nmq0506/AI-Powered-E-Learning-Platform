@@ -1,5 +1,6 @@
 package com.ou.ailearning.entity;
 
+import com.ou.ailearning.entity.enums.CourseStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -26,10 +27,12 @@ public class Course {
     @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
-    private String status; // PENDING, APPROVED
+    @Enumerated(EnumType.STRING)
+    @Column(length = 20)
+    private CourseStatus status; // PENDING, APPROVED, REJECTED
 
     private Instant createdAt;
-
+    private Long instructorId;
     private Boolean active;
     @PrePersist
     public void prePersist() {

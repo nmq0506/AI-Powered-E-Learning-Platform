@@ -3,7 +3,7 @@ package com.ou.ailearning.service;
 import com.ou.ailearning.config.JwtProperties;
 import com.ou.ailearning.dto.response.AuthResponse;
 import com.ou.ailearning.dto.request.LoginRequest;
-import com.ou.ailearning.dto.response.RegisterRequest;
+import com.ou.ailearning.dto.request.RegisterRequest;
 import com.ou.ailearning.dto.response.UserResponse;
 import com.ou.ailearning.entity.User;
 import com.ou.ailearning.entity.enums.Role;
