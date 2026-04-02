@@ -12,7 +12,10 @@ import org.springframework.stereotype.Repository;
 public interface CategoryRepository extends JpaRepository<Category, Long> {
     @Query("""
         SELECT c FROM Category c
-        WHERE LOWER(c.name) LIKE LOWER(CONCAT('%', :search, '%'))
+        WHERE (
+            :search IS NULL OR :search = '' 
+            OR LOWER(c.name) LIKE LOWER(CONCAT('%', :search, '%'))
+        )
     """)
     Page<Category> findBySearch(@Param("search") String search, Pageable pageable);
 }

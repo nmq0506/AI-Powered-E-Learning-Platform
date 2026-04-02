@@ -1,6 +1,7 @@
 package com.ou.ailearning.controller;
 
 import com.ou.ailearning.dto.request.CategoryRequest;
+import com.ou.ailearning.dto.response.ApiResponse;
 import com.ou.ailearning.dto.response.CategoryResponse;
 import com.ou.ailearning.service.CategoryService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -70,16 +71,16 @@ public class CategoryController {
     @Operation(summary = "Xóa mềm category")
     @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> delete(@PathVariable Long id) {
+    public ResponseEntity<ApiResponse> delete(@PathVariable Long id) {
         categoryService.delete(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok(new ApiResponse("Bạn đã xóa danh mục"));
     }
 
     @Operation(summary = "Khôi phục category")
     @PreAuthorize("hasRole('ADMIN')")
     @PatchMapping("/{id}/restore")
-    public ResponseEntity<Void> restore(@PathVariable Long id) {
+    public ResponseEntity<ApiResponse> restore(@PathVariable Long id) {
         categoryService.restore(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok(new ApiResponse("Bạn đã khôi phục danh mục"));
     }
 }

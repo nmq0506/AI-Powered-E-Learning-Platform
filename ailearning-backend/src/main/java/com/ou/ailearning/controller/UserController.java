@@ -1,6 +1,7 @@
 package com.ou.ailearning.controller;
 
 import com.ou.ailearning.dto.request.UpdateUserRequest;
+import com.ou.ailearning.dto.response.ApiResponse;
 import com.ou.ailearning.dto.response.UserResponse;
 import com.ou.ailearning.entity.enums.Role;
 import com.ou.ailearning.service.UserService;
@@ -57,16 +58,16 @@ public class UserController {
     @Operation(summary = "Xóa mềm user (ADMIN)")
     @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> delete(@PathVariable Long id) {
+    public ResponseEntity<ApiResponse> delete(@PathVariable Long id) {
         userService.delete(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok(new ApiResponse("Bạn đã xóa một user"));
     }
 
     @Operation(summary = "Khôi phục user (ADMIN)")
     @PreAuthorize("hasRole('ADMIN')")
     @PatchMapping("/{id}/restore")
-    public ResponseEntity<Void> restore(@PathVariable Long id) {
+    public ResponseEntity<ApiResponse> restore(@PathVariable Long id) {
         userService.restore(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok(new ApiResponse("Bạn đã khôi phục user"));
     }
 }
