@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f4bf27e-c217-48b8-9074-5122d9602135" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/dto/request/CourseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/dto/response/CourseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/entity/enums/CourseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/service/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/dto/response/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/dto/request/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ailearning-backend/src/main/java/com/ou/ailearning/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ailearning-backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ailearning-backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ailearning-backend/src/test/java/com/ou/ailearning/AiPoweredELearningPlatformApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4f4bf27e-c217-48b8-9074-5122d9602135" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "NMQ",
     "last_opened_file_path": "D:/AI-Powered-E-Learning-Platform",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
