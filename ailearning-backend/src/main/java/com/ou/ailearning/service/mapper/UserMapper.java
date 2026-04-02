@@ -1,6 +1,6 @@
-package com.ou.ailearning.service;
+package com.ou.ailearning.service.mapper;
 
-import com.ou.ailearning.dto.UserResponse;
+import com.ou.ailearning.dto.response.UserResponse;
 import com.ou.ailearning.entity.User;
 import org.springframework.stereotype.Component;
 

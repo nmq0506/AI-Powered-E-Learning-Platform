@@ -1,6 +1,6 @@
 package com.ou.ailearning.exeption;
 
-import com.ou.ailearning.dto.ApiError;
+import com.ou.ailearning.dto.response.ApiError;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -91,6 +91,18 @@ public class GlobalExceptionHandler {
         );
         return ResponseEntity.status(HttpStatus.FORBIDDEN).body(body);
     }
+
+    public ResponseEntity<ApiError> handleAccountDisabled(AccountDisabledException ex, HttpServletRequest request) {
+        ApiError body = new ApiError(
+                "Fobidden",
+                ex.getMessage(),
+                null,
+                request.getRequestURI(),
+                Instant.now()
+        );
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(body);
+    }
+
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ApiError> handleAccessDenied(Exception ex, HttpServletRequest request) {
         log.error("Unhandler error", ex);

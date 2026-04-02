@@ -1,16 +1,18 @@
 package com.ou.ailearning.service;
 
 import com.ou.ailearning.config.JwtProperties;
-import com.ou.ailearning.dto.AuthResponse;
-import com.ou.ailearning.dto.LoginRequest;
-import com.ou.ailearning.dto.RegisterRequest;
-import com.ou.ailearning.dto.UserResponse;
+import com.ou.ailearning.dto.response.AuthResponse;
+import com.ou.ailearning.dto.request.LoginRequest;
+import com.ou.ailearning.dto.response.RegisterRequest;
+import com.ou.ailearning.dto.response.UserResponse;
 import com.ou.ailearning.entity.User;
 import com.ou.ailearning.entity.enums.Role;
+import com.ou.ailearning.exeption.AccountDisabledException;
 import com.ou.ailearning.exeption.DuplicateResourceException;
 import com.ou.ailearning.exeption.ResourceNotFoundException;
 import com.ou.ailearning.repository.UserRepository;
 import com.ou.ailearning.security.JwtService;
+import com.ou.ailearning.service.mapper.UserMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -66,7 +68,13 @@ public class AuthService {
                 .or(() -> userRepository.findByEmail(request.usernameOrEmail()))
                 .orElseThrow(()  -> new BadCredentialsException("Username/Email hoặc mật khẩu không đúng"));
 
-        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), request.password()));
+        if (Boolean.FALSE.equals(user.getActive())) {
+            throw new AccountDisabledException("Tài khoản đã bị vô hiệu hóa");
+        }
+
+        authenticationManager.authenticate(
+                new UsernamePasswordAuthenticationToken(user.getUsername(), request.password())
+        );
 
         var userDetails = userDetailsService.loadUserByUsername(user.getUsername());
         String accessToken = jwtService.generateAccessToken(userDetails);

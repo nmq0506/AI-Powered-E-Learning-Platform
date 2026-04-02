@@ -32,7 +32,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             throws ServletException, IOException {
         try {
             String jwt = getJwtFromRequest(request);
-            if(StringUtils.hasText(jwt) && SecurityContextHolder.getContext().getAuthentication() != null) {
+            if(StringUtils.hasText(jwt) && SecurityContextHolder.getContext().getAuthentication() == null) {
                 String username = jwtService.extractUsername(jwt);
                 if (username != null) {
                     UserDetails userDetails = userDetailsService.loadUserByUsername(username);

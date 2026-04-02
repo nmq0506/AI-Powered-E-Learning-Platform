@@ -1,6 +1,6 @@
 package com.ou.ailearning.security;
 
-import com.ou.ailearning.dto.ApiError;
+import com.ou.ailearning.dto.response.ApiError;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

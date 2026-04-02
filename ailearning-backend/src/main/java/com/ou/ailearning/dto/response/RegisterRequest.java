@@ -1,4 +1,4 @@
-package com.ou.ailearning.dto;
+package com.ou.ailearning.dto.response;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

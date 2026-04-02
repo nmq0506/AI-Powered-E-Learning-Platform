@@ -1,4 +1,4 @@
-package com.ou.ailearning.dto;
+package com.ou.ailearning.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

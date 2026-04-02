@@ -1,39 +1,28 @@
 package com.ou.ailearning.entity;
 
-import com.ou.ailearning.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.Instant;
 
 @Entity
-@Table(name = "users")
+@Table(name = "categories")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class User {
-
+public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String username;
-
-    @Column(unique = true, nullable = false)
-    private String email;
-
-    private String password;
-
-    @Enumerated(EnumType.STRING)
-    private Role role; // STUDENT, INSTRUCTOR, ADMIN
-
-    private String avatar;
+    private String name;
 
     private Instant createdAt;
 
     private Boolean active;
+
     @PrePersist
     public void prePersist() {
         this.createdAt = Instant.now();

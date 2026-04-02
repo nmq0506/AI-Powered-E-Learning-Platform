@@ -1,4 +1,5 @@
-package com.ou.ailearning.dto;
+package com.ou.ailearning.dto.response;
+
 public record AuthResponse(
         String accessToken,
         String refreshToken,

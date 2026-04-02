@@ -1,9 +1,9 @@
 package com.ou.ailearning.controller;
 
-import com.ou.ailearning.dto.AuthResponse;
-import com.ou.ailearning.dto.LoginRequest;
-import com.ou.ailearning.dto.RegisterRequest;
-import com.ou.ailearning.dto.UserResponse;
+import com.ou.ailearning.dto.response.AuthResponse;
+import com.ou.ailearning.dto.request.LoginRequest;
+import com.ou.ailearning.dto.response.RegisterRequest;
+import com.ou.ailearning.dto.response.UserResponse;
 import com.ou.ailearning.service.AuthService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
