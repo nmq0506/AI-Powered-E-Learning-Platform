@@ -17,7 +17,9 @@ import java.nio.file.AccessDeniedException;
 import java.time.Instant;
 import java.util.List;
 import java.util.stream.Collectors;
+import io.swagger.v3.oas.annotations.Hidden;
 
+@Hidden
 @RestControllerAdvice
 public class GlobalExceptionHandler {
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);

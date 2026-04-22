@@ -8,3 +8,13 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+jwt:
+  secret: MySuperSecretKey1234567890
+  expiration: 3600000
+
+openai:
+  model: gpt-3.5-turbo
+  api:
+    key: ${OPENAI_API_KEY}
+    url: https://api.openai.com/v1/chat/completions
